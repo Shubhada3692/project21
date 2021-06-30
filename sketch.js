@@ -25,7 +25,7 @@ function setup(){
     surface4 = createSprite(100,570,190,20);
     surface4.shapeColor = "green";
     //create box sprite and give velocity
-    box = createSprite(random(20,750),70,30,30);
+    box = createSprite(random(130,330),70,30,30);
     box.shapeColor = "white";
     box.velocityY = 3;
     box.velocityX = 3;
